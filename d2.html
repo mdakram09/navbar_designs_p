@@ -13,8 +13,9 @@
 body {
     font-family: 'Roboto Condensed', sans-serif;  
     overflow: hidden;
-    margin: 0;
-    padding: 0;
+    margin: 5px 5px 5px 5px;
+    padding: 6px 6px 6px 6px;
+
    
 }
 
@@ -36,7 +37,7 @@ li {
     background-size: cover;
     display: table;
     width: 100%;
-    position: relative;
+    position: absolute;
 }
 
 .main:after {
@@ -57,7 +58,7 @@ li {
     font-size: 24px;
     line-height: 28px;
     color: #fff;
-    font-weight: 400;
+    font-weight: bold;
 }
 
 .hello {
@@ -96,6 +97,7 @@ li {
     width: 100%;
     overflow: hidden;
     background-size: cover;
+	background-color:#fff;
     opacity: 0;
     visibility: hidden;   
     transition: opacity 0.3s 0s, visibility 0s 0.3s;
@@ -300,7 +302,8 @@ header {
     transform: rotate(0deg);     
     transition: .5s ease-in-out;
     cursor: pointer;
-    margin-top: 7px;
+    margin-top: 19px;
+	border: solid-blue;
 }
 
 .nav-icon span {
@@ -344,7 +347,7 @@ header {
 <body>
     
  
-<header>
+<header class="container">
 	<div class="logo float-left">
 		<a href="">MODERN</a>
 	</div> 
@@ -356,31 +359,51 @@ header {
 </header>
 
 <!-- Full Menu -->
-<div class="full-menu">
+<div class="full-menu container">
 	<div class="fullmenu-content">
 		<ul class="page-menu">
-			<li><a class="active" href="index-2.html">Home</a></li>
-			<li><a href="">About</a></li>
-			<li><a href="">Blog Posts</a></li>
-			<li><a href="">Contact</a></li>
-			<li><a href="#">Buy Now</a></li>
+
+			<li style="border-radius: 50px 50px 50px 50px;"><a class="active" href="index-2.html">Home</a></li>
+			<li style="border-radius: 50px 50px 50px 50px;"><a href="">About</a></li>
+			<li style="border-radius: 50px 50px 50px 50px;"><a href="">Blog Posts</a></li>
+			<li style="border-radius: 50px 50px 50px 50px;"><a href="">Contact</a></li>
+			<li style="border-radius: 50px 50px 50px 50px;"><a href="#">Buy Now</a></li>
 			<li class="social">
+				<a style="border-radius: 50px 50px 50px 50px;" href="#"><img src="twitter2.png" alt=""></a>
+            <a style="border-radius: 50px 50px 50px 50px;" href="#"><img src="instagram.png" alt=""></a>
+            <a style="border-radius: 50px 50px 50px 50px;" href="#"><img src="dribbble.png" alt=""></a>
+            <a style="border-radius: 50px 50px 50px 50px;" href="#"><img src="send2.png" alt=""></a>
+=======
+			<li style="50px 50px 50px 50px;"><a class="active" href="index-2.html">Home</a></li>
+			<li style="50px 50px 50px 50px;"><a href="">About</a></li>
+			<li style="50px 50px 50px 50px;"><a href="">Blog Posts</a></li>
+			<li style="50px 50px 50px 50px;"><a href="">Contact</a></li>
+			<li style="50px 50px 50px 50px;"><a href="#">Buy Now</a></li>
+			<li class="social">
+
+				<a style="50px 50px 50px 50px;" href="#"><img src="twitter2.png" alt=""></a>
+            <a style="50px 50px 50px 50px;" href="#"><img src="instagram.png" alt=""></a>
+            <a style="50px 50px 50px 50px;" href="#"><img src="dribbble.png" alt=""></a>
+            <a style="50px 50px 50px 50px;" href="#"><img src="send2.png" alt=""></a>
+=======
 				<a href="#"><img src="twitter2.png" alt=""></a>
-            <a href="#"><img src="instagram.png" alt=""></a>
-            <a href="#"><img src="dribbble.png" alt=""></a>
-            <a href="#"><img src="send2.png" alt=""></a>
+            <a style="border-radius:50px 40px 50px 50px;" href="#"><img src="instagram.png" alt=""></a>
+            <a style="border-radius:50px 40px 50px 50px;" href="#"><img src="dribbble.png" alt=""></a>
+            <a style="border-radius:50px 40px 50px 50px;" href="#"><img src="send2.png" alt=""></a>
+
+
 			</li>
 		</ul>
 	</div>
 	<a href="#0" class="modal-close">Close</a>
 </div>
-<div class="cd-transition-layer visible opening"> 
+<div class="cd-transition-layer container visible opening"> 
 	<div class="bg-layer"></div>
 </div><!-- Ink Transition -->
 
 <div class="wrapper">
  
-<section class="main">
+<section class="main container">
 	<div class="main-content">
         <span class="hello">Hello Everyone!</span>
 		<h1 class="main-title">I'm Md Akram Khan and Creative<br>
