@@ -70,7 +70,7 @@ nav header {
   transform-origin: 0 0;
   transition: transform var(--duration) var(--easing), color var(--duration) var(--easing);
   transition-delay: var(--delay-out);
-  border-radius: 4px;
+  border-radius: 50px 50px 50px 50px;
   padding: 1em 1.52em;
 }
 nav header span {
@@ -87,6 +87,10 @@ nav footer button {
 
   margin-top: 0;
   padding-left: 0;
+=======
+
+  margin-top: 0;
+  padding-left: 0;
   border: solid-blue;
 =======
 
@@ -98,6 +102,7 @@ nav footer button {
 =======
   top: 10;
   left: 5;
+
   border: none;
 
 
@@ -129,6 +134,13 @@ nav.closed footer button {
 <body>
    
     <nav class="menu container">
+
+    <header class="container">Menu <span>×</span></header>
+    <ol>
+        <li style="border-radius: 50px 50px 50px 50px;" class="menu-item"><a href="#0">Home</a></li>
+        <li style="border-radius: 50px 50px 50px 50px;" class="menu-item"><a href="#0">About</a></li>
+        <li style="border-radius: 50px 50px 50px 50px;" class="menu-item">
+=======
     <header>Menu <span>×</span></header>
     <ol>
 
@@ -139,6 +151,7 @@ nav.closed footer button {
         <li style="50px 50px 50px 50px;" class="menu-item"><a href="#0">Home</a></li>
         <li style="50px 50px 50px 50px;" class="menu-item"><a href="#0">About</a></li>
         <li style="50px 50px 50px 50px;" class="menu-item">
+
 
             <a href="#0">Widgets</a>
 
@@ -163,6 +176,11 @@ nav.closed footer button {
                 <li style="border-radius: 50px 50px 50px 50px;" class="menu-item"><a href="#0">Paneer Pyaza</a></li>
                 <li style="border-radius: 50px 50px 50px 50px;" class="menu-item"><a href="#0">Rasbhari</a></li>
 =======
+
+                <li style="border-radius: 50px 50px 50px 50px;" class="menu-item"><a href="#0">Russi</a></li>
+                <li style="border-radius: 50px 50px 50px 50px;" class="menu-item"><a href="#0">Paneer Pyaza</a></li>
+                <li style="border-radius: 50px 50px 50px 50px;" class="menu-item"><a href="#0">Rasbhari</a></li>
+=======
                 <li style="50px 50px 50px 50px;" class="menu-item"><a href="#0">Russi</a></li>
                 <li style="50px 50px 50px 50px;" class="menu-item"><a href="#0">Paneer Pyaza</a></li>
                 <li style="50px 50px 50px 50px;" class="menu-item"><a href="#0">Rasbhari</a></li>
@@ -173,6 +191,7 @@ nav.closed footer button {
                 <li class="menu-item"><a href="#0">Rasbhari</a></li>
 
 
+
             </ol>
         </li>
         <li class="menu-item rounded-pill"><a href="#0">Contact</a></li>
@@ -180,7 +199,11 @@ nav.closed footer button {
 
     <footer><button style="border-radius: 50px 50px 50px 50px;" aria-label="Toggle Menu">Toggle</button></footer>
 =======
+
+    <footer><button style="border-radius: 50px 50px 50px 50px;" aria-label="Toggle Menu">Toggle</button></footer>
+=======
     <footer><button style="border-radius"5px 5px 50px 50px;" aria-label="Toggle Menu">Toggle</button></footer>
+
 
 </nav> 
 <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
