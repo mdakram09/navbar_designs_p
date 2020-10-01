@@ -23,11 +23,12 @@ nav {
   position: relative;
   width: 220px;
   margin: 20px;
+    margin-top: 56px 56px 56px 56px;
 }
 nav ol {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
+  margin-top: 10px;
+  padding: 10px 10px 10px 10px;
 }
 nav li {
   margin: -4px 0 0 0;
@@ -39,7 +40,8 @@ nav a {
   transform-origin: 0 0;
   transition: transform var(--duration) var(--easing), color var(--duration) var(--easing);
   transition-delay: var(--delay-out);
-  border-radius: 4px;
+  border-radius: 50px 50px 50px 50px;
+    border: solid-blue;
   padding: 1em 1.52em;
 }
 nav a:hover {
@@ -105,12 +107,12 @@ nav.closed footer button {
 </head>
 <body>
    
-    <nav class="menu">
+    <nav class="menu container">
     <header>Menu <span>×</span></header>
     <ol>
-        <li class="menu-item"><a href="#0">Home</a></li>
-        <li class="menu-item"><a href="#0">About</a></li>
-        <li class="menu-item">
+        <li style="border-radius: 50px 50px 50px 50px;" class="menu-item"><a href="#0">Home</a></li>
+        <li style="border-radius: 50px 50px 50px 50px;" class="menu-item"><a href="#0">About</a></li>
+        <li style="border-radius: 50px 50px 50px 50px;" class="menu-item">
             <a href="#0">Widgets</a>
             <ol class="sub-menu">
                 <li class="menu-item"><a href="#0">Grocerry</a></li>
@@ -121,14 +123,14 @@ nav.closed footer button {
         <li class="menu-item">
             <a href="#0">Juice</a>
             <ol class="sub-menu">
-                <li class="menu-item"><a href="#0">Russi</a></li>
-                <li class="menu-item"><a href="#0">Paneer Pyaza</a></li>
-                <li class="menu-item"><a href="#0">Rasbhari</a></li>
+                <li style="border-radius: 50px 50px 50px 50px;" class="menu-item"><a href="#0">Russi</a></li>
+                <li style="border-radius: 50px 50px 50px 50px;" class="menu-item"><a href="#0">Paneer Pyaza</a></li>
+                <li style="border-radius: 50px 50px 50px 50px;" class="menu-item"><a href="#0">Rasbhari</a></li>
             </ol>
         </li>
         <li class="menu-item"><a href="#0">Contact</a></li>
     </ol>
-    <footer><button aria-label="Toggle Menu">Toggle</button></footer>
+    <footer><button style="border-radius: 50px 50px 50px 50px;" aria-label="Toggle Menu">Toggle</button></footer>
 </nav> 
 <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
 <script>
