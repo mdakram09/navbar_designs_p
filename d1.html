@@ -80,6 +80,11 @@ nav header span {
 nav footer button {
   position: absolute;
 
+  margin-top: 0;
+  padding-left: 0;
+  border: solid-blue;
+=======
+
   top: 0;
   left: 0;
   border: solid-blue;
@@ -89,6 +94,7 @@ nav footer button {
   top: 10;
   left: 5;
   border: none;
+
 
   padding: calc(1em - 2px);
   width: 100%;
@@ -109,6 +115,7 @@ nav.closed header {
 nav.closed footer button {
   transition-delay: 0s;
   transform: scaleY(0.7) scaleX(0.2);
+    border-radius: 5px 5px 5px 5px;
 }
 
     
@@ -119,22 +126,36 @@ nav.closed footer button {
     <nav class="menu container">
     <header>Menu <span>×</span></header>
     <ol>
-        <li class="menu-item"><a href="#0">Home</a></li>
-        <li class="menu-item"><a href="#0">About</a></li>
-        <li class="menu-item">
+        <li style="50px 50px 50px 50px;" class="menu-item"><a href="#0">Home</a></li>
+        <li style="50px 50px 50px 50px;" class="menu-item"><a href="#0">About</a></li>
+        <li style="50px 50px 50px 50px;" class="menu-item">
             <a href="#0">Widgets</a>
+
+            <ol class="sub-menu">
+                <li style="50px 50px 50px 50px;" class="menu-item"><a href="#0">Grocerry</a></li>
+                <li style="50px 50px 50px 50px;" class="menu-item"><a href="#0">Discount</a></li>
+                <li style="50px 50px 50px 50px;" class="menu-item"><a href="#0">Huge Sale</a></li>
+=======
             <ol class="sub-menu rounded-pill">
                 <li class="menu-item"><a href="#0">Grocerry</a></li>
                 <li class="menu-item"><a href="#0">Discount</a></li>
                 <li class="menu-item"><a href="#0">Huge Sale</a></li>
+
             </ol>
         </li>
         <li class="menu-item container">
             <a href="#0">Juice</a>
+
+            <ol class="sub-menu">
+                <li style="50px 50px 50px 50px;" class="menu-item"><a href="#0">Russi</a></li>
+                <li style="50px 50px 50px 50px;" class="menu-item"><a href="#0">Paneer Pyaza</a></li>
+                <li style="50px 50px 50px 50px;" class="menu-item"><a href="#0">Rasbhari</a></li>
+=======
             <ol class="sub-menu rounded-pill">
                 <li class="menu-item"><a href="#0">Russi</a></li>
                 <li class="menu-item"><a href="#0">Paneer Pyaza</a></li>
                 <li class="menu-item"><a href="#0">Rasbhari</a></li>
+
             </ol>
         </li>
         <li class="menu-item rounded-pill"><a href="#0">Contact</a></li>
