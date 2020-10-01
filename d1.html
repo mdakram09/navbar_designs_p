@@ -10,7 +10,7 @@
   box-sizing: border-box;
   color: #333;
   font-size: 100%;
-  line-height: 1.5;
+  line-height: 3.5;
 }
 body {
   background-image: url(ford1.jpg);
@@ -39,7 +39,7 @@ nav a {
   transform-origin: 0 0;
   transition: transform var(--duration) var(--easing), color var(--duration) var(--easing);
   transition-delay: var(--delay-out);
-  border-radius: 4px;
+  border-radius: 50px 50px 50px 50px;
   padding: 1em 1.52em;
 }
 nav a:hover {
@@ -76,8 +76,8 @@ nav header span {
 }
 nav footer button {
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 10;
+  left: 5;
   border: none;
   padding: calc(1em - 2px);
   width: 100%;
@@ -105,7 +105,7 @@ nav.closed footer button {
 </head>
 <body>
    
-    <nav class="menu">
+    <nav class="menu container">
     <header>Menu <span>×</span></header>
     <ol>
         <li class="menu-item"><a href="#0">Home</a></li>
@@ -118,7 +118,7 @@ nav.closed footer button {
                 <li class="menu-item"><a href="#0">Huge Sale</a></li>
             </ol>
         </li>
-        <li class="menu-item">
+        <li class="menu-item container">
             <a href="#0">Juice</a>
             <ol class="sub-menu">
                 <li class="menu-item"><a href="#0">Russi</a></li>
@@ -128,7 +128,7 @@ nav.closed footer button {
         </li>
         <li class="menu-item"><a href="#0">Contact</a></li>
     </ol>
-    <footer><button aria-label="Toggle Menu">Toggle</button></footer>
+    <footer><button style="border-radius"5px 5px 50px 50px;" aria-label="Toggle Menu">Toggle</button></footer>
 </nav> 
 <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
 <script>
