@@ -72,6 +72,9 @@ nav header {
   transition-delay: var(--delay-out);
   border-radius: 50px 50px 50px 50px;
   padding: 1em 1.52em;
+padding-top: 10px; 
+margin-top : 10px; 
+color : #f2f3f4; 
 }
 nav header span {
   border: none;
@@ -84,7 +87,7 @@ nav header span {
 }
 nav footer button {
   position: absolute;
-
+  border-radius: 50px 5px 5px 5px; 
   margin-top: 0;
   padding-left: 0;
 =======
@@ -133,7 +136,7 @@ nav.closed footer button {
 </head>
 <body>
    
-    <nav class="menu container">
+    <nav class="menu container-fluid">
 
     <header class="container">Menu <span>×</span></header>
     <ol>
@@ -155,7 +158,7 @@ nav.closed footer button {
 
             <a href="#0">Widgets</a>
 
-            <ol class="sub-menu">
+            <ol class="sub-menu container-fluid ">
                 <li style="50px 50px 50px 50px;" class="menu-item"><a href="#0">Grocerry</a></li>
                 <li style="50px 50px 50px 50px;" class="menu-item"><a href="#0">Discount</a></li>
                 <li style="50px 50px 50px 50px;" class="menu-item"><a href="#0">Huge Sale</a></li>
